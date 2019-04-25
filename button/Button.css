@@ -1,0 +1,16 @@
+.my-button{
+    padding: 15px;
+    background-color: #333;
+    color: #eee;
+    border-radius: 3px;
+    border: 1px solid #222;
+    outline: none;  
+    cursor: pointer;
+}
+
+.my-button:active{
+    border-color: #555;
+}
+.my-button:disabled{
+    opacity: 0.75;
+}
